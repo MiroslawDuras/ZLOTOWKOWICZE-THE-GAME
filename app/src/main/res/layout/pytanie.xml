@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zlotowka"
+    android:rotationX="0"
+    tools:context=".Pytanie">
+
+
+    <TextView
+        android:id="@+id/textfield1"
+        android:layout_width="296dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/black"
+        android:text="Pytanie"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonwstecz"
+        android:layout_width="241dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="@color/black"
+        android:onClick="wstecz"
+        android:text="MENU"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="249dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/black"
+        android:onClick="odpowiedz3"
+        android:text="1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="249dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/black"
+        android:onClick="odpowiedz4"
+        android:text="1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/buttonodrzucdwie"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="220dp"
+        android:backgroundTint="@color/black"
+        android:onClick="odrzucdwie"
+        android:text="ODRZUC DWIE"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/buttontelefondoprzyjaciela"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="52dp"
+        android:backgroundTint="@color/black"
+        android:onClick="telefondoprzyjaciela"
+        android:text="TELEFON"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/buttozmianapytania"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="136dp"
+        android:backgroundTint="@color/black"
+        android:onClick="zmianapytania"
+        android:text="ZMIANA PYTANIA"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="249dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/black"
+        android:onClick="odpowiedz1"
+        android:text="1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="249dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/black"
+        android:onClick="odpowiedz2"
+        android:text="1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfield1" />
+
+    <TextView
+        android:id="@+id/textfield2"
+        android:layout_width="157dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="168dp"
+        android:background="@color/black"
+        android:text="Pytanie"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textfield3"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:background="@color/black"
+        android:text="Pytanie"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
